@@ -1,0 +1,8 @@
+Conclusiones
+
+Sin utilizar ninguna validación, el programa se ejecuta sin importar
+que caracteres se ingresen, incluso si se ingresa una combinación de datos int y char 
+la variable PIN reconoce los  valores enteros.
+
+No es optimo utlizar un programa así, es mas costoso validar pero vale
+la pena realizarlo.
