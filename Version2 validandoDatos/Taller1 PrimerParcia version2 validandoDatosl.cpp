@@ -49,6 +49,7 @@ cout << "PIN: " << pin << endl;
 
 void Usuario::establecerDatos(char i [15], int p)	//*******************************************************
 {
+	char op [3];
 if (strlen(i) < 6)		//strlen no da el tamaño de la cadena ID si es menor que 6 nos devolvera desconocido
 {
 cout << "ID de usuario muy corto" << endl;
@@ -67,12 +68,16 @@ else
 {
 pin = p;		//Si el PIN es >=1 nos devuelve el valor ingresado
 }
+		
 }
+
+
+
 // Probando la clase
 //*****************************************  Menú Principal *************************************************
 int main()
-{
-Usuario u;
+{	
+Usuario u = Usuario();
 u.capturarDatos();
 u.imprimirDatos();
 system("pause");

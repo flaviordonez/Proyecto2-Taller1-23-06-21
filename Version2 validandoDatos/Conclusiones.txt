@@ -1,8 +1,11 @@
 El programa funciona correctamente
 
-1 Si se ingresa el ID con caracteres menor que 6 los validad y 
+1 Si se ingresa el ID con caracteres menor que 6 valida el ID y 
   devuelve que es un dato incorrecto
 2 Si se ingresa en el PIN valores menores que 1 el valor es validado 
   ya que solo permite valores mayores a cero.
-3 Si se ingresan ID los valores correctos no devuelve el ID y el PIN 
+3 Si se ingresan ID los valores correctos nos devuelve el ID y el PIN 
   ingresados
+
+Enlace:
+https://github.com/flaviordonez/Proyecto2-Taller1-23-06-21.git
